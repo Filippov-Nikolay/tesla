@@ -1,0 +1,35 @@
+.footer {
+    padding: 83px 0 20px;
+    background-color: #690102;
+}
+.footer__content {
+    text-align: center;
+}
+.footer__button {
+    padding: 30px 60px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.footer__menu {
+    padding-top: 80px;
+}
+/* .menu__list {
+} */
+.menu__list:not(:last-child):after {
+    content: '|';
+    display: inline-block;
+    margin: 0 15px;
+}
+.copyright {
+    display: inline;
+}
+.menu__link {
+    transition: all .5s ease;
+}
+.menu__link:hover {
+    color: rgba(255, 255, 255, 0.752);
+}

@@ -1,0 +1,127 @@
+.header {
+    height: 100vh;
+}
+/* .slider {
+} */
+.slider__item {
+    height: 100vh;
+}
+.header__slider {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+} 
+/* .slider__img {
+} */
+.slider .slick-dots {
+    position: relative;
+    max-width: 1200px;
+    margin: -55px auto 0;
+    z-index: 6;
+}
+.slider .slick-dots li {
+    display: inline-block;
+}
+.slider .slick-dots li:not(:last-child) {
+    margin-right: 20px;
+}
+.slider .slick-dots button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0B0B0B;
+    padding: 0;
+    font-size: 0;
+    transition: all .5s ease;
+}
+.slider .slick-dots button:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+}
+.slider .slick-dots .slick-active button {
+    background-color: #fff;
+}
+.header__inner {
+    position: relative;
+    padding: 30px 0;
+    z-index: 5;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+/* .header__nav {
+} */
+.nav__logo {
+    max-width: 240px;
+}
+/* .nav__logo-img {
+} */
+.button {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    transition: all .7s ease;
+}
+.button:hover {
+    background-color: #770302;
+}
+.nav__button {
+    padding: 15px 12px;
+    max-width: 60px;
+    max-height: 60px;
+}
+.nav__button-span {
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+}
+.nav__button-span:not(:last-child) {
+    margin-bottom: 10px;
+}
+.header__content {
+    padding-top: 30px;
+}
+.title {
+    font-size: 96px;
+    font-family: 'Roboto', sans-serif;
+}
+.header__title {
+    padding-bottom: 40px;
+}
+.desc {
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header__desc {
+    max-width: 284px;
+    padding-bottom: 25px;
+}
+.header__button {
+    padding: 30px 60px;
+}
+.header__slider-buttons {
+    display: flex;
+    padding-top: 150px;
+}
+.header__slider-button:not(:last-child) {
+    margin-right: 20px;
+}
+.header__slider-button {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #0B0B0B;
+    transition: all .6s ease;
+}
+.header__slider-button--active {
+    background-color: #FFFFFF;
+}
+.header__slider-button:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
