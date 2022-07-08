@@ -11,6 +11,7 @@
 .menu {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-weight: 700;
     text-transform: capitalize;
 }

@@ -4,6 +4,7 @@
 .info__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 /* .info__item {
 } */
@@ -59,12 +60,15 @@
     margin-right: 0;
 }
 .speed__item:nth-child(even) .speed__item-title {
+    padding-top: 15px;
+    padding-bottom: 0;
     margin-left: auto;
 }
 .speed__item:nth-child(even) .speed__menu {
     margin-right: auto;
 }
 .speed__item-title {
+    padding-bottom: 15px;
     font-size: 36px;
 }
 .speed__menu {
