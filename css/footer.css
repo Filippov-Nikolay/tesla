@@ -8,19 +8,17 @@
 .footer__button {
     padding: 30px 60px;
 }
-.menu {
+.footer__menu {
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     font-weight: 700;
     text-transform: capitalize;
 }
-.footer__menu {
-    padding-top: 80px;
-}
 /* .menu__list {
 } */
-.menu__list:not(:last-child):after {
+.menu__footer-list:not(:last-child):after {
     content: '|';
     display: inline-block;
     margin: 0 15px;
@@ -28,9 +26,9 @@
 .copyright {
     display: inline;
 }
-.menu__link {
+.menu__footer-link {
     transition: all .5s ease;
 }
-.menu__link:hover {
+.menu__footer-link:hover {
     color: rgba(255, 255, 255, 0.752);
 }

@@ -19,7 +19,7 @@
             <div class="header__inner">
                 <nav class="nav header__nav">
                     <a href="index.html" class="nav__logo"><img class="nav__logo-img" src="img/logo.png" alt="logo-Tesla"></a>
-                    <button class="button nav__button">
+                    <button class="button nav__button" onclick="menu();">
                         <span class="nav__button-span"></span>
                         <span class="nav__button-span"></span>
                         <span class="nav__button-span"></span>
@@ -32,6 +32,18 @@
                     </p>
                     <a href="#" class="button header__button">Хочу тест драйв</a>
                 </div>
+            </div>
+        </div>
+        <div id="menu" class="header__menu-burger" style="display: none;">
+            <div class="header__inner-menu">
+                <button class="menu-close" onclick="menu();"></button>
+                <ul class="menu menu__header">
+                    <li class="menu__list"><a class="menu__link" href="#">узнать цену</a></li>
+                    <li class="menu__list"><a class="menu__link" href="#">характеристики</a></li>
+                    <li class="menu__list"><a class="menu__link" href="#">тест драйв</a></li>
+                    <li class="menu__list"><a class="menu__link" href="#">новости</a></li>
+                    <li class="menu__list"><a class="menu__link" href="#">контакты</a></li>
+                </ul>
             </div>
         </div>
     </header>
@@ -122,13 +134,13 @@
             <div class="footer__content">
                 <a href="#" class="button footer__button">Хочу тест драйв</a>
                 <ul class="menu footer__menu">
-                    <li class="menu__list"><p class="copyright">tesla &copy; 2022</p></li>
-                    <li class="menu__list"><a href="#" class="menu__link">privacy & legal</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">contact</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">careers</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">get newsletter</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">forums</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link">locations</a></li>
+                    <li class="menu__footer-list"><p class="copyright">tesla &copy; 2022</p></li>
+                    <li class="menu__footer-list"><a href="#" class="menu__footer-link">privacy & legal</a></li>
+                    <li class="menu__footer-list"><a href="#" class="menu__footer-link">contact</a></li>
+                    <li class="menu__footer-list"><a href="#" class="menu__footer-link">careers</a></li>
+                    <li class="menu__footer-list"><a href="#" class="menu__footer-link">get newsletter</a></li>
+                    <li class="menu__footer-list"><a href="#" class="menu__footer-link">forums</a></li>
+                    <li class="menu__footer-list"><a href="#" class="menu__footer-link">locations</a></li>
                 </ul>
             </div>
         </div>
