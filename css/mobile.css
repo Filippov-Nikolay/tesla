@@ -32,6 +32,10 @@
 	.info__item:not(:last-child) {
 		margin-bottom: 50px;
 	}
+
+	.menu__link {
+		font-size: 40px;
+	}
 }
 
 @media screen and (max-width: 575px) {
@@ -56,6 +60,9 @@
 	}
 	.header__button {
 		padding: 15px 30px;
+	}
+	.menu__link {
+		max-width: 230px;
 	}
 
 	.info__items {
